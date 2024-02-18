@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 40px white;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.logo{
+    width: 30%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.logo h1{
+    font-size: 2.5rem;
+}
+.nav{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    margin: 0 50px;
+    font-size: larger;
+}
+ul a{
+    text-decoration: none;
+    cursor: pointer;
+    /* margin: 0 50px; */
+    font-size: larger;
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right,red
+    ,black)
+}
+.text{
+    width: 30%;
+}
+.text > h3{
+    font-size: 3rem;
+}
+.grid{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 180px;
+    gap: 0.5rem;
+    background-size: cover;
+    background-position: top;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #ddd;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.box:hover{
+    background-position: center;
+    background-color: gray;
+    box-shadow: 0 0 40px;
+}
+
+
+/* home */
+
+.products{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 100fr 100fr;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.class{
+    /* /* border: 3px solid red; */
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 80px;
+    border: 2px solid blue;
+}
+/* footer */
+.footer {
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* .footer h4{
+    text-align: center;
+} */
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.one{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: calc(20px - 0.5em);
+}
